@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Rooms {
     private int roomNumber;
+    //there are two ArrayLists, one with the exit room, and the other is the direction the player must travel to get to that room. Both are read in the txt file.
     private ArrayList<Integer> exits;
     private ArrayList<Character> directions;
     private String description;
@@ -14,16 +15,7 @@ public class Rooms {
         this.description = description;
         this.visited = visited;
     }
-
-//    public int checkNextRoom(String nextRoom){
-//        for (int i = 0; i < directions.length(); i++) {
-//            if (directions.contains(nextRoom)){
-//                return exits.get(i);
-//            }
-//        }
-//        return 0;
-//    }
-
+    
     // Getters and setters for each attribute
     public int getRoomNumber() {
         return roomNumber;
