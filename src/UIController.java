@@ -3,6 +3,8 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//This is the controller class that controls the game
+
 public class UIController extends CannotGoThereException{
     private final ArrayList<Rooms> roomsList = new ArrayList<>();
     private Scanner reader;
@@ -31,6 +33,7 @@ public class UIController extends CannotGoThereException{
         } catch (FileNotFoundException e){
             System.out.println("The Game has glitched :(");
         }
+        //this reads the file and takes all of the info in the text file and creates the room objects.
 
         while (fileReader!= null && fileReader.hasNext()) {
             String roomNumberString = fileReader.nextLine();
@@ -50,17 +53,20 @@ public class UIController extends CannotGoThereException{
             ui.addRoom(rm);
         }
 
+        //this begins the game loop
         Scanner input = new Scanner(System.in);
         System.out.println("The game is beginning. In order to move you must type \"N, S, E, or W\" ");
         ui.setCurrentRoom(0);
         //this is the game loop
         while (ui.getCurrentRoom() < 6){
+            //initializing the room
             System.out.println(ui.roomsList.get(ui.getCurrentRoom()).getDescription());
             ui.roomsList.get(ui.currentRoom).setVisited(true);
             System.out.println("N/S/E/W?");
             String nextRoom = input.next();
             Character nextRoomChar = nextRoom.charAt(0);
             boolean valid = true;
+            //moving to a new room + validation that it can work.
             while (valid) {
 
                 try {
@@ -73,6 +79,8 @@ public class UIController extends CannotGoThereException{
                     e.printStackTrace();
                 }
             }
+
+            System.out.println("You won!");
         }
     }
 }
