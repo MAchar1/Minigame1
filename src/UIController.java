@@ -73,7 +73,7 @@ public class UIController extends CannotGoThereException{
                     int indexOfExit = ui.roomsList.get(ui.getCurrentRoom()).getDirections().indexOf(nextRoomChar);
                     ui.setCurrentRoom(ui.roomsList.get(ui.getCurrentRoom()).getExits().get(indexOfExit));
                     valid = false;
-                } catch (CannotGoThereException e) {
+                } catch (IndexOutOfBoundsException e) {
                     System.out.println("Buddy you cannot go there.");
                 } catch (Exception e) {
                     e.printStackTrace();
