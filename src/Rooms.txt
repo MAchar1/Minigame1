@@ -1,0 +1,28 @@
+0
+You awake in a room that feels like a warm hug. The walls are painted in a soft, pale yellow that provides a comforting glow to the room. The floorboards are made of dark, polished wood and creak slightly as you step on them. A large, plush rug in rich, earthy tones lies at the center of the room, inviting you to sink your feet into its softness. On the north wall of the room is a door.
+0
+1N
+1
+You emerge through the doorway to a man standing behind a small kiosk. Above the kiosk is a sign that reads "DO NOT GO WEST". You approach the kiosk and notice the man has a large mustache and is bald. He holds out 3 tickets, NORTH, EAST, WEST. To the north wall you see a giant wooden door that seems older than everything else is sight. To the east you see a door exactly like the one you came through. You try to look west, but for some reason you can't see what is there properly. "Where are you going?" the man interrupts your thoughts.
+0
+3N2E4W
+2
+The room is empty. Walking into an empty room can be a surreal experience, as it lacks the usual bustle of life and activity. The emptiness amplifies sounds and the echoes of footsteps, creating a sense of solitude and stillness. The lack of any real presence or stimulation can leave one feeling both peaceful and lonely at the same time. You turn around and see that there is infact something in the room and that is the door you came from.
+0
+1E
+3
+You enter a grand and opulent throne room. The walls are adorned with golden accents, intricate moldings, and intricate paintings that depict scenes from classical mythology. A massive, intricately carved throne sits atop a raised dais at the center of the room, with plush velvet cushions and gold-trimmed armrests. On the throne sits a young woman in business suit. She looks you deeply in the eyes and says "You went the wrong way." You feel slightly ashamed.
+0
+1S
+4
+You enter a rather large room. Near the south side of the room is a table with 4 chimpanzees in hats eating their supper. The east wall is covered in the heads of elk and deer. To the north is another door like the one you just came through.
+0
+1W5N
+5
+As you step into the room you realize you are dreaming. But you know if you go back to where you came from you will forget this. The room you entered shifts and fades between different images almost as if it can't decide what it want to be. It finaly settles on a comfy room, with a warm fireplace and a cup of hot chocolate waiting for you. You look up from the cozy enviornment and notice something beckoning you to the north wall...
+0
+6N4S
+6
+You enter a holodeck from Star Trek, a room that came simulate any place in the world with holograms. You have reached the end.
+0
+5S
