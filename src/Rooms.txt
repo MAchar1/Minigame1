@@ -5,7 +5,7 @@ You awake in a room that feels like a warm hug. The walls are painted in a soft,
 1
 You emerge through the doorway to a man standing behind a small kiosk. Above the kiosk is a sign that reads "DO NOT GO WEST". You approach the kiosk and notice the man has a large mustache and is bald. He holds out 3 tickets, NORTH, EAST, WEST. To the north wall you see a giant wooden door that seems older than everything else is sight. To the east you see a door exactly like the one you came through. You try to look west, but for some reason you can't see what is there properly. "Where are you going?" the man interrupts your thoughts.
 0
-3N2E4W
+3N2E4W0S
 2
 The room is empty. Walking into an empty room can be a surreal experience, as it lacks the usual bustle of life and activity. The emptiness amplifies sounds and the echoes of footsteps, creating a sense of solitude and stillness. The lack of any real presence or stimulation can leave one feeling both peaceful and lonely at the same time. You turn around and see that there is infact something in the room and that is the door you came from.
 0
