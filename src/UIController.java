@@ -41,6 +41,8 @@ public class UIController extends CannotGoThereException{
             String description = fileReader.nextLine();
             String visitedString = fileReader.nextLine();
             boolean visited = Boolean.parseBoolean(visitedString);
+            //here i create two ArrayLists, the first an ArrayList with all the other rooms connected to the room.
+            //the second ArrayList is one that records the cardinal direction the player type to go to the connected room, all matching in index.
             String initialDirections = fileReader.nextLine();
             ArrayList<Integer> exits = new ArrayList<>();
             ArrayList<Character> directions = new ArrayList<>();
@@ -68,8 +70,11 @@ public class UIController extends CannotGoThereException{
             while (valid) {
 
                 try {
+                    //get the direction to the new room from user and saves in the correct format.
                     String nextRoom = input.next();
-                    Character nextRoomChar = nextRoom.charAt(0);
+                    Character nextRoomChar = nextRoom.toUpperCase().charAt(0);
+                    //finds the direction ArrayList from Rooms and see if the given direction is an available direction
+                    //if it is it sets the current room to the matching room in the exits Arraylist.
                     int indexOfExit = ui.roomsList.get(ui.getCurrentRoom()).getDirections().indexOf(nextRoomChar);
                     ui.setCurrentRoom(ui.roomsList.get(ui.getCurrentRoom()).getExits().get(indexOfExit));
                     valid = false;
