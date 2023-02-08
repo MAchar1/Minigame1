@@ -64,7 +64,8 @@ public class UIController extends CannotGoThereException{
             //initializing the room
             System.out.println(ui.roomsList.get(ui.getCurrentRoom()).getDescription());
             ui.roomsList.get(ui.currentRoom).setVisited(true);
-            System.out.println("N/S/E/W?");
+            System.out.println("You can go:");
+            System.out.println(ui.roomsList.get(ui.currentRoom).getDirections());
             boolean valid = true;
             //moving to a new room + validation that it can work.
             while (valid) {
