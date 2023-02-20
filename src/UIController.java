@@ -60,7 +60,8 @@ public class UIController extends CannotGoThereException{
         System.out.println("The game is beginning. In order to move you must type \"N, S, E, or W\" ");
         ui.setCurrentRoom(0);
         //this is the game loop
-        while (ui.getCurrentRoom() < ui.roomlist.size() - 1){
+        while (ui.getCurrentRoom() < ui.roomlist.size() - 1){ //roomsList is
+            // correct object to call size()
             //initializing the room
             System.out.println(ui.roomsList.get(ui.getCurrentRoom()).getDescription());
             ui.roomsList.get(ui.currentRoom).setVisited(true);
